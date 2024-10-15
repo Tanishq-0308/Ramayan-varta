@@ -69,7 +69,7 @@ function Home() {
           </svg>
         </div>
         <div
-          className={`fixed h-[400px] w-[250px] transition-all duration-500 ease-in-out  ${
+          className={`fixed h-[400px] w-[250px] transition-all duration-500 ease-in-out z-10  ${
             chapter ? "right-0" : "right-[-250px]"
           }  bg-gray-600 text-white  rounded-xl p-4 overflow-auto custom-scrollbar top-32 `}
         >
@@ -111,7 +111,7 @@ function Home() {
             </svg>
           </div>
           <ul
-            className={` list-decimal pl-6 transition-transform duration-500 ease-in-out`}
+            className={` list-decimal pl-6 transition-transform duration-500 ease-in-out z-10`}
             onClick={togglechapter}
           >
             <li className="p-3 border-b">
