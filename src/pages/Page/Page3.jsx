@@ -5,11 +5,11 @@ function Page3() {
   return (
     <div id="page3">
       <div className="flex  justify-end">
-        <h1 className="text-[#ffba26] mr-8 text-[50px] font-martel border-2 border-[#ffba25] rounded-xl py-1  px-3 ">
+        <h1 className="text-[#ffba26] mr-8 text-[50px] max-[360px]:text-[30px] font-martel border-2 border-[#ffba25] rounded-xl py-1  px-3 ">
           सम्पादकीयम्
         </h1>
       </div>
-      <h2 className="text-[65px] font-rozha text-[#ffba26] ml-8">
+      <h2 className="text-[65px] max-[360px]:text-[50px] font-rozha text-[#ffba26] ml-8">
         कुतः दीपः सुलभः न नगरस्य कृते।
       </h2>
 

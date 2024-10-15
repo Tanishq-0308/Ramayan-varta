@@ -4,7 +4,7 @@ import page6img from "../../assets/page6img.png";
 function Page6() {
   return (
     <div id="page6">
-      <h1 className="text-[60px] border-2 text-[#f32424] font-martel px-3 border-[#f32424] ml-7 inline rounded-xl ">
+      <h1 className="text-[60px] max-[340px]:text-[30px] border-2 text-[#f32424] font-martel px-3 border-[#f32424] ml-7 inline rounded-xl ">
         मंदिर वार्ता:
       </h1>
       <div className="grid grid-cols-2 m-7 max-[750px]:grid-cols-1">
@@ -12,7 +12,7 @@ function Page6() {
           <img src={page6img} alt="" className="w-[70%] rounded-lg" />
         </div>
         <div className="flex order-1 items-center text-center justify-center">
-          <h1 className="text-[55px] text-[#f32424] font-rozha">
+          <h1 className="text-[55px] max-[340px]:text-[45px] text-[#f32424] font-rozha">
             देशे 12 ज्योतिर्लिंगेषु प्रमुखं महाकालः, इतिहासनाम च रोचकः
           </h1>
         </div>

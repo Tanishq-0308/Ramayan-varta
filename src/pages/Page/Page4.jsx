@@ -5,11 +5,11 @@ import page4img2 from "../../assets/page4img2.png";
 function Page4() {
   return (
     <div id="page4">
-      <h1 className="text-[50px] px-3 border-2 ml-7 text-blue-800 font-martel border-blue-800 rounded-lg inline">
+      <h1 className="text-[50px] max-[385px]:text-[30px] px-3 border-2 ml-7 text-blue-800 font-martel border-blue-800 rounded-lg inline">
         राजधानी-वार्ता:
       </h1>
       <h2
-        className="text-right text-[60px] text-blue-800 font-rozha mt-7
+        className="text-right text-[60px] max-[385px]:text-[40px] text-blue-800 font-rozha mt-7
          mr-8"
       >
         चन्द्रयान-४ भारतस्य आगामि

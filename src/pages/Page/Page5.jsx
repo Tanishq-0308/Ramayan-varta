@@ -10,7 +10,7 @@ function Page5() {
       >
         <h1
           className="text-[50px] border-2 text-[#ff28b4] border-[#ff28b4] px-3
-            rounded-lg mr-8"
+            rounded-lg mr-8 max-[330px]:text-[30px]"
         >
           कला संस्कृति
         </h1>
@@ -25,11 +25,11 @@ function Page5() {
         <div>
           <h1
             className="
-                text-[54px] text-[#ff28b4] font-rozha"
+                text-[54px] max-[330px]:text-[44px] text-[#ff28b4] font-rozha"
           >
             मोहिनीअट्टम
           </h1>
-          <h2 className="text-[40px] text-[#ac227c] ">
+          <h2 className="text-[40px] text-[#ac227c] max-[330px]:text-[30px] ">
             शास्त्रीय नृत्य - कला और संस्कृति
           </h2>
         </div>

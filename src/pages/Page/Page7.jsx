@@ -7,7 +7,7 @@ function Page7() {
   return (
     <div id="page7">
       <div className="flex justify-end">
-        <h1 className="text-[50px] border-2 text-[#530d6a] border-[#530d6a] p-3 mr-8 rounded-xl">
+        <h1 className="text-[50px] max-[460px]:text-[30px] border-2 text-[#530d6a] border-[#530d6a] p-3 mr-8 rounded-xl">
           ऐतिहासिक-धरोहरः
         </h1>
       </div>
@@ -15,7 +15,7 @@ function Page7() {
         <div className="grid grid-rows-3 text-center max-[600px]:grid-rows-2">
           <div className="flex flex-col items-center justify-center text-[#530d6a]">
             <p className="text-4xl">महान प्राणावन</p>
-            <p className="text-8xl mt-2">चोल मंदिरम्</p>
+            <p className="text-8xl mt-2 max-[460px]:text-7xl">चोल मंदिरम्</p>
           </div>
           <div className=" max-[600px]:hidden">
             <img src={page7img1} alt="" />

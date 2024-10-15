@@ -6,13 +6,13 @@ function Page2() {
   return (
     <>
       <div id="page2">
-      <h1 className="ml-7 text-[50px]  text-green-500 font-martel border-2 inline px-3 border-green-500 rounded-xl">
+      <h1 className="ml-7 text-[50px] max-[500px]:text-[40px]  text-green-500 font-martel border-2 inline px-3 border-green-500 rounded-xl">
         समसामयिक
       </h1>
-      <h2 className="text-[65px] text-right mr-8 text-green-600 font-rozha">
+      <h2 className="text-[65px] max-[500px]:text-[50px] text-right mr-8 text-green-600 font-rozha">
         स्वामी विवेकानन्दस्य शिकागो उद्बोधनम्
       </h2>
-      <h3 className="font-martel text-center text-[32px] leading-10 mx-20 my-10">
+      <h3 className="font-martel text-center text-[32px] max-[500px]:text-[28px] leading-10 mx-20 my-10">
         स्वामी विवेकानन्दः शिक्षिता मनुष्यम् लौकिकं पारलौकिकं च उन्नयने कामिते
         स्म। रसिच्छा आसीत् यत्र पाठ्यक्रमे आधुनिकविषयानां सहर्षं स्वास्थ्यं,
         राष्ट्रसेवा च इत्यादृशः विषयः अपि सम्मिलितः भवतु। स्वामी विवेकानन्दः

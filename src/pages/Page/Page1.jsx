@@ -6,7 +6,7 @@ function Page1() {
     <>
     <div id="page1">
     <div class="page1 flex flex-col items-center my-10">
-        <h1 class="text-[#cc1f1f]  w-[90%] rounded-3xl text-[50px] font-bold bg-orange-300 text-center p-2  font-rozha" >विवेकचूडामणिः</h1> 
+        <h1 class="text-[#cc1f1f]  w-[90%] rounded-3xl text-[50px] max-[340px]:text-[40px] font-bold bg-orange-300 text-center p-2  font-rozha" >विवेकचूडामणिः</h1> 
     </div>
       <div className="grid text-[15px] m-7 grid-cols-3 max-[700px]:grid-cols-2 max-[550px]:grid-cols-1
        gap-4 break-words whitespace-normal text-justify leading-relaxed border-b-8 rounded-xl pb-6 border-orange-300">

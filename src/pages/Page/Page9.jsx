@@ -4,10 +4,10 @@ import page9img from "../../assets/page9img.jpeg";
 function Page9() {
   return (
     <div id="page9">
-      <h1 className="ml-7 text-[50px]  text-green-500 font-martel border-2 inline px-3 border-green-500 rounded-xl">
+      <h1 className="ml-7 text-[50px] max-[380px]:text-[35px]  text-green-500 font-martel border-2 inline px-3 border-green-500 rounded-xl">
         रामराज्य-वार्ता:
       </h1>
-      <h2 className="text-[50px] text-right mr-8 my-5 font-rozha">
+      <h2 className="text-[50px] text-right mr-8 my-5 font-rozha max-[380px]:text-[40px]">
         श्री राम-भरत-संवादः, पादुका प्रदानम्, भरतस्य विदावेला
       </h2>
       <div className="grid max-[575px]:grid-cols-1 grid-cols-3 break-words whitespace-normal text-justify leading-relaxed gap-4 m-7 border-b-8 rounded-xl pb-6 border-green-500">

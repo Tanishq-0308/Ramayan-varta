@@ -5,7 +5,7 @@ function Page10() {
   return (
     <div id="page10">
       <div className="flex justify-end">
-        <h1 className="text-[50px] mr-8 rounded-xl px-3 border-2 border-[#147221] text-[#147221]">
+        <h1 className="text-[50px] max-[350px]:text-[35px] mr-8 rounded-xl px-3 border-2 border-[#147221] text-[#147221]">
           संस्कृत-वार्ताः
         </h1>
       </div>

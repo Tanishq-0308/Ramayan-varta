@@ -12,6 +12,11 @@ import Page8 from "../Page/Page8";
 import Page9 from "../Page/Page9";
 import Page10 from "../Page/Page10";
 import Page11 from "../Page/Page11";
+import Page12 from "../Page/Page12";
+import Page13 from "../Page/Page13";
+import Page14 from "../Page/Page14";
+import Page15 from "../Page/Page15";
+import Page16 from "../Page/Page16";
 
 function Home() {
   const [menu, setMenu] = useState(false);
@@ -143,10 +148,19 @@ function Home() {
               <a href="#page11">हुतात्मा</a>
             </li>
             <li className="p-3 border-b">
-              <a href="">राष्ट्र-निर्माणम्</a>
+              <a href="#page12">राष्ट्र-निर्माणम्</a>
             </li>
             <li className="p-3 border-b">
-              <a href="">रामायणी-व्यक्तित्व-साक्षात्कारः</a>
+              <a href="#page13">साक्षात्कारः श्रीरामकथावाचकः/संत</a>
+            </li>
+            <li className="p-3 border-b">
+              <a href="#page14">रामायणी-व्यक्तित्व-साक्षात्कारः</a>
+            </li>
+            <li className="p-3 border-b">
+              <a href="#page15">विश्वम्</a>
+            </li>
+            <li className="p-3 border-b">
+              <a href="#page16">रामायण अनुसन्धान परिषद् समाचारः</a>
             </li>
           </ul>
         </div>
@@ -162,6 +176,11 @@ function Home() {
         <Page9/>
         <Page10/>
         <Page11/>
+        <Page12/>
+        <Page13/>
+        <Page14/>
+        <Page15/>
+        <Page16/>
       </div>
     </>
   );

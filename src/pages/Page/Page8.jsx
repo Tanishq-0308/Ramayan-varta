@@ -5,7 +5,7 @@ function Page8() {
   return (
     <div id="page8">
       <div className="flex justify-end">
-        <h1 className="text-[50px] border-2 rounded-xl text-[#ff8a1c] border-[#ff8a1c] px-3 inline mr-8">
+        <h1 className="text-[50px] max-[340px]:text-[30px] border-2 rounded-xl text-[#ff8a1c] border-[#ff8a1c] px-3 inline mr-8">
           वैदिक-ज्ञानम्
         </h1>
       </div>
@@ -14,7 +14,7 @@ function Page8() {
           <img src={page8img} alt="" className="rounded-xl" />
         </div>
         <div className="flex items-center justify-center">
-          <p className="text-[60px] text-[#ff8a1c] font-rozha">
+          <p className="text-[60px] max-[340px]:text-[50px] text-[#ff8a1c] font-rozha">
             वेदस्य अर्थः ज्ञानम्
           </p>
         </div>

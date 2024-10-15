@@ -6,7 +6,7 @@ function Page11() {
     <div id="page11">
       <div className="flex ">
         <h1
-          className="text-[50px] border-2 px-8 rounded-xl text-gray-500 border-gray-500 inline ml-7 
+          className="text-[50px] border-2 px-8 rounded-xl text-gray-500 border-gray-500 inline ml-7 max-[340px]:text-[40px]
         "
         >
           हुतात्मा
@@ -88,12 +88,12 @@ function Page11() {
             className="flex text-center items-center justify-center 
                 "
           >
-            <h1 className="font-rozha text-[75px] p-4">
+            <h1 className="font-rozha text-[75px] p-4 max-[340px]:text-[50px]">
               अमर-बलिदानी-खुदीराम-बोसः
             </h1>
           </div>
-          <div className="mt-10">
-            <img src={page11img} alt="" className="w-full max-w-full h-auto  p-5" />
+          <div className="mt-10 flex items-center justify-center">
+            <img src={page11img} alt="" className="  p-5" />
           </div>
         </div>
       </div>
